@@ -1,0 +1,3 @@
+pyrofork==1.0.0
+tgcrypto
+motor==3.3.0
