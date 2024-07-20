@@ -18,8 +18,10 @@ OWNER_ID = "" # Replace with the actual owner ID
 CHANNEL_ID =  # Replace with your channel ID
 FORCE_SUB_CHANNEL = CHANNEL_ID
 MONGO_URI = ""
-ADMINS = [int(OWNER_ID)]
+ADMINS = []
 CHANNEL_USERNAME = "" #username 
+ADMINS.append(OWNER_ID)
+
 
 # Initialize the Pyrogram client
 app = Client("giveaway_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
